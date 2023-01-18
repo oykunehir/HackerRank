@@ -26,8 +26,9 @@ class Result {
         int currentChar = word.charAt(i); //Calculates the Ascii equivalent of char
         if(h.get(currentChar-97)>maxLength){
             maxLength = h.get(currentChar-97); 
-            /*Ascii equivalent of 'a' is 97 
-            If we subtract 97 from 'a' = 97 result will be 0 and this is the index of                'a' in h.
+            /*
+            Ascii equivalent of 'a' is 97 
+            If we subtract 97 from 'a' = 97 result will be 0 and this is the index of 'a' in h.
             */
         }
     }
